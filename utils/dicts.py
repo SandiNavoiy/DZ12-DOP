@@ -3,7 +3,7 @@
 
 
 
-def get_value(dictionary, key, default=None):
+def get_value(dictionary, key, default='git'):
     """
     Возвращает значение из словаря по переданному ключу, если ключ существует. В ином случае возвращается значение default.
     :param dictionary: Словарь
